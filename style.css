@@ -1,0 +1,221 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#F6F2F1;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+.boxing1{
+  float:centre;
+  padding:15px;
+  background:#3F3C3C;
+  color:#ffffff;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+/*what we do box */
+.boxing2{
+  float:centre;
+  padding:15px;
+  background: #e8491d;
+  color: black;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+.boxing3{
+  float:centre;
+  padding:15px;
+  background:FFECF7;
+  color:black;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+.boxing4{
+  float:right;
+  display: inline;
+  width: 80%;
+  padding:15px;
+  background:#3F3C3C;
+  color:#ffffff;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.boxing5{
+  float:left;
+  display: inline;
+  width: 80%;
+  padding:15px;
+  background:#3F3C3C;
+  color:#ffffff;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+.boxing6{
+  float:right;
+  display: inline;
+  width: 80%;
+  padding:15px;
+  background:#3F3C3C;
+  color:#ffffff;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background: black;
+  color: white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: red 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #site{
+  float:left;
+}
+
+header #site h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Background Image */
+#background{
+  min-height:400px;
+  background:url('../lion5.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#background h1{
+  margin-top:100px;
+  font-size:50px;
+  margin-bottom:10px;
+}
+
+#background p{
+  font-size:20px;
+}
+
+
+/* Boxes */
+
+/* home page image boxes */
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Form */
+main2#form{
+  float:center;
+  width:80%;
+  margin-top:10px;
+}
+
+main2#form .quote input, main2#form .quote textarea{
+  float:center;
+  width:80%;
+  padding:5px;
+}
+.button1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+/* Main-col */
+article#main-col{
+  float:center;
+  width:80;
+}
+
+/* Services */
+ul#the_problem li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: black;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #site,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  main2#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #background h1{
+    margin-top:40px;
+  }
