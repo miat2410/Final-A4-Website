@@ -75,7 +75,12 @@ ul{
   margin-top:40px;
   margin-bottom:10px;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* Header **/
 header{
   background: black;
