@@ -117,7 +117,7 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-  color:#cccccc;
+  color: #e8491d;
   font-weight:bold;
 }
 
@@ -168,8 +168,8 @@ main2#form .quote input, main2#form .quote textarea{
 }
 .button1{
   height:38px;
-  background:#e8491d;
   border:0;
+  background:#e8491d;
   padding-left: 20px;
   padding-right:20px;
   color:#ffffff;
@@ -202,11 +202,9 @@ footer{
   header #site,
   header nav,
   header nav li,
-  #newsletter h1,
-  #newsletter form,
   #boxes .box,
   article#main-col,
-  main2#sidebar{
+  main2#background{
     float:none;
     text-align:center;
     width:100%;
