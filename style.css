@@ -125,23 +125,6 @@ header a:hover{
   color: #e8491d;
   font-weight:bold;
 }
-  .block {
-  display: block;
-  width: 50%;
-  margin:auto;
-  border: none;
-  background-color: #FFBF7D;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.block:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 
 /* Background Image */
@@ -176,7 +159,23 @@ header a:hover{
 #boxes .box img{
   width:90px;
 }
+  .block {
+  display: block;
+  width: 50%;
+  margin:auto;
+  border: none;
+  background-color: #FFBF7D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
 
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
 /* Form */
 main2#form{
   float:center;
